@@ -2,6 +2,8 @@
 
 This homework assignment required building a work day scheduler from 9-5, with colour coded blocks indicating past, present, or future. Requirements included making use of moment.js, as well as jQuery to build the application. After clicking save, events are saved to localStorage and appended back to their textareas on page reload.
 
+https://joshualive.github.io/Work-Day-Scheduler/
+
 ![Work Day Scheduler preview.](wds.png)
 
 ## User Story
