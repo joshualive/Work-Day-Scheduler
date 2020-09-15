@@ -14,6 +14,7 @@ let fivePM = document.getElementById('five')
 // Display current date in jumbotron
 dateDisplay.append(todaysDate)
 
+// Run the row functions on page load
 $(document).ready( function () {
     nineBlock()
     tenBlock()
@@ -26,7 +27,7 @@ $(document).ready( function () {
     fiveBlock()
 });
 
-//Nine Row
+// Nine Row
 $('#btn-nine').on('click', function () {
     let nineEvents = nineAM.value
     localStorage.setItem('nineEvents', nineEvents)
@@ -64,7 +65,7 @@ function tenBlock() {
     }
 }
 
-//Eleven Row
+// Eleven Row
 $('#btn-eleven').on('click', function () {
     let elevenEvents = elevenAM.value
     localStorage.setItem('elevenEvents', elevenEvents)
@@ -83,7 +84,7 @@ function elevenBlock() {
     }
 }
 
-//Twelve Row
+// Twelve Row
 $('#btn-twelve').on('click', function () {
     let twelveEvents = twelvePM.value
     localStorage.setItem('twelveEvents', twelveEvents)
@@ -102,7 +103,7 @@ function twelveBlock() {
     }
 }
 
-//One Row
+// One Row
 $('#btn-one').on('click', function () {
     let oneEvents = onePM.value
     localStorage.setItem('oneEvents', oneEvents)
@@ -121,7 +122,7 @@ function oneBlock() {
     }
 }
 
-//Two Row
+// Two Row
 $('#btn-two').on('click', function () {
     let twoEvents = twoPM.value
     localStorage.setItem('twoEvents', twoEvents)
@@ -159,7 +160,7 @@ function threeBlock() {
     }
 }
 
-//Four Row
+// Four Row
 $('#btn-four').on('click', function () {
     let fourEvents = fourPM.value
     localStorage.setItem('fourEvents', fourEvents)
@@ -178,7 +179,7 @@ function fourBlock() {
     }
 }
 
-//Five Row
+// Five Row
 $('#btn-five').on('click', function () {
     let fiveEvents = fivePM.value
     localStorage.setItem('fiveEvents', fiveEvents)
